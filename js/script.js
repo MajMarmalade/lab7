@@ -8,10 +8,9 @@ function init(){
   var textoutput = document.getElementById('textoutput')
   var button = document.getElementById('entrybutton');
 
-  button.addEventListener('click', alertText());
+  button.addEventListener('click', alertText);
 
 }
 
 
 window.addEventListener('load', init);
-
