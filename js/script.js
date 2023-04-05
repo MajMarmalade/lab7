@@ -1,12 +1,15 @@
 function init(){
+  
+  var button = document.getElementById('entrybutton');
+  
   function alertText(){
-    alert(textbox.getElementById('textoutput').innerHTML);
-    textoutput.innerHTML = textbox.getElementById('textoutput').innerHTML;
+    alert("TEST");
+    textbox.getElementById('textoutput').innerHTML = textbox.value;
   }
 
   var textbox = document.getElementById('entryinput');
   var textoutput = document.getElementById('textoutput')
-  var button = document.getElementById('entrybutton');
+  
 
   button.addEventListener('click', alertText);
 
